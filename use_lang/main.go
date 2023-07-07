@@ -1,10 +1,8 @@
 package main
 
-import "main-module/git"
-
-// "main-module/git"
+import "main-module/server"
 
 func main() {
-	git.User_lang()
-	// apiserver.Main()
+	server.HandlerRequests()
+
 }
